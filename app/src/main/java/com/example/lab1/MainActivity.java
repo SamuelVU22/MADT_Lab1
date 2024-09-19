@@ -1,6 +1,5 @@
 package com.example.lab1;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -29,11 +28,5 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tvChangeText = findViewById(R.id.tvChangeText);
         tvChangeText.setText("You have just click on the button");
-    }
-
-    public void onBtnChangeColour(View view) {
-        TextView tvChangeText = findViewById(R.id.tvChangeText);
-        tvChangeText.setTextColor(Color.parseColor("#FFFAAA"));
-
     }
 }
